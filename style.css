@@ -1,0 +1,54 @@
+/* * {
+    border: solid red 2px;
+} */
+
+.navbar-brand {
+    display: flex;
+    justify-content: center;
+}
+
+.nav-container {
+    background-color: black;
+    color: white;
+}
+
+.main-gallery {
+    background-color: whitesmoke;
+    display: grid;
+    /* width: 50%; */
+    grid-template-columns: auto auto auto;
+}
+
+.art {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.content {
+    opacity: 0;
+    font-size: 40px;
+    font-weight: bolder;
+    position: absolute;
+    color: #fbf9f8;
+    background-color: rgba(22, 22, 22, 0.5);
+    width: 500px;
+    height: 300px;
+}
+
+.art .content:hover {
+    opacity: 1;
+    font-size: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.art-image {
+    width: 500px;
+    height: 300px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
